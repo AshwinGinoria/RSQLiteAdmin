@@ -1,4 +1,4 @@
-# Differences Between SQLite and Other DB's
+# Differences Between SQLite and SQL
 
 | SQL | SQLite |
 |---|---|
