@@ -5,7 +5,7 @@ library (DBI)
 data(mtcars)
 
 # Establishing Connection
-con <- dbConnect (RSQLite::SQLite(), ":memory:")
+con <- dbConnect (RSQLite::SQLite(), "Dummy_Data.db")
 dbListTables(con)
 
 # Creating Table
