@@ -1,6 +1,6 @@
 # RSQLiteAdmin
 
-An interactive interface based SQLite R package making it very user-friendly. Current Targets of the projects
+An interactive interface based SQLite R package making it very user-friendly. Current Targets of the projects are
 
 - Create DataBases
 - Explore Tables
