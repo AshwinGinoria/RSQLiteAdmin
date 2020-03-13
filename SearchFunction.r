@@ -1,3 +1,5 @@
+# Only Implemented Equality Type Search Functions Till Now
+
 # Loading Library
 library(DBI)
 
