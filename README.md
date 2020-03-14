@@ -35,7 +35,7 @@ The DB connections in R have many different parts and stages. At the lowest leve
     <em>Image taken from https://db.rstudio.com</em>
 </p>
 
-At the top most layer is RSQLite (and other packages like RMySQL), This is the layer user interacts directly with. connecting this layer to the dplyr level is DBI. The DBI package acts 'middle-ware' and allows connectivity with database from user/other packages. DBI separates the connectivity to the DBMS into a “front-end” and a “back-end”. Applications use only the exposed front-end API. The back-end facilities that communicate with specific DBMSs (SQLite, MySQL, PostgreSQL, MonetDB, etc.) are provided by drivers (other packages) that get invoked automatically through S4 methods.
+At the top most layer is RSQLite (and other packages like RMySQL), This is the layer user interacts directly with DBI which connects this layer to the dplyr level. The DBI package acts as a 'middle-ware' and allows connectivity with database from user/other packages. DBI separates the connectivity to the DBMS into a “front-end” and a “back-end”. Applications use only the exposed front-end API. The back-end facilities that communicate with specific DBMSs (SQLite, MySQL, PostgreSQL, MonetDB, etc.) are provided by drivers (other packages) that get invoked automatically through S4 methods.
 
 <p>
     <img src="./Resources/R_DBI_Explained.png" width=40% ><br>
