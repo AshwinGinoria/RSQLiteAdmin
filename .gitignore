@@ -1,1 +1,6 @@
 *.db
+*.Rcheck
+*.tar.gz
+/RSQLiteAdminAlpha/.Rproj.user
+/RSQLiteAdminAlpha/.RData
+/RSQLiteAdminAlpha/.Rhistory

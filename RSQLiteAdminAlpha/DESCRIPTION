@@ -1,0 +1,10 @@
+Package: RSQLiteAdminAlpha
+Type: Package
+Title: A UI based Database interaction tool (SQLite)
+Version: 0.1.0
+Author: Ashwin Ginoria
+Maintainer: Ashwin Ginoria <ashwinginoria@gmail.com>
+Description: Uses Shiny app to Make the functions and use cases of RSQLite package UI based and more user friendly.
+License: Open-Source
+Encoding: UTF-8
+LazyData: true
