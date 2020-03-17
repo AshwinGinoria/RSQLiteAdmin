@@ -4,3 +4,7 @@
 /RSQLiteAdminAlpha/.Rproj.user
 /RSQLiteAdminAlpha/.RData
 /RSQLiteAdminAlpha/.Rhistory
+/RSQLiteAdminAlpha/*.Rproj
+/.RData
+/.Rhistory
+.Rproj.user
