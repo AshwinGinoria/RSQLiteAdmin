@@ -1,0 +1,25 @@
+Package: RSQLiteAdminShiny
+Title: A UI based Database interaction tool (SQLite)
+Version: 0.0.0.9000
+Authors@R: person('Ashwin', 'Ginoria', email = 'ashwinginoria@gmail.com', role = c('cre', 'aut'))
+Description: Uses Shiny app to Make the functions and use cases of RSQLite package UI based and more user friendly.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    thinkr,
+    DBI
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Suggests: 
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
