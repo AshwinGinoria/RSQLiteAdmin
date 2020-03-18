@@ -29,7 +29,7 @@ You can install the released version of RSQLiteAdminShiny from [CRAN](https://CR
 install.packages("RSQLiteAdminShiny")
 ```
 
-And the development version from [GitHub](https://github.com/) with:
+And the development version from [GitHub](https://github.com/AshwinGinoria/RSQLiteAdmin) with:
 
 ``` r
 # install.packages("devtools")
